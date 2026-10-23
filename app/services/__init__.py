@@ -3,6 +3,7 @@ from app.services.attendance_service import AttendanceService
 from app.services.audit_log_service import AuditLogService
 from app.services.auth_service import AuthService
 from app.services.csv_import_service import CSVImportService
+from app.services.dashboard_service import DashboardService
 from app.services.employee_service import EmployeeService
 from app.services.hr_access_request_service import HRAccessRequestService
 from app.services.leave_service import LeaveService
@@ -14,6 +15,7 @@ __all__ = [
     "AuditLogService",
     "AuthService",
     "CSVImportService",
+    "DashboardService",
     "EmployeeService",
     "HRAccessRequestService",
     "LeaveService",
